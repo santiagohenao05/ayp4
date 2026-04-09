@@ -38,3 +38,4 @@ recomendaciones_ordenadas = sorted(recomendaciones, key=lambda x: similaridades[
 print("Recomendaciones para Santiago:")
 for juego in recomendaciones_ordenadas:
     print(f"- {juego} (similaridad: {similaridades[usuario_mas_similar]:.2f})") 
+    
